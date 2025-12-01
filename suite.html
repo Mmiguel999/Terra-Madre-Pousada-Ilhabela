@@ -4,131 +4,156 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Suíte 01 Terra Madre Pousada Ilhabela</title>
+
+    <!-- CSS da página -->
     <link rel="stylesheet" href="suite.css">
+
+    <!-- Ícone do site -->
     <link rel="icon" href="TM.png">
+
+    <!-- JavaScript da galeria e modal -->
     <script src="suite.js"></script>
 </head>
 
-
 <body>
-  
-      
-    <header class="" id="home">
-  <section class="header-container">
-    <!-- Logo à esquerda -->
-    <article class="logo-area">
-      <img class="img1 pading" src="logo.png" alt="Logo Terra Madre">
-    </article>
 
-    <!-- Navegação à direita -->
-    <nav class="nav-menu">
-      <ul>
-        <li><a href="index.html">HOME</a></li>
-      </ul>
-    </nav>
-  </section>
-</header>
+    <!-- Cabeçalho principal -->
+    <header id="home">
+        <section class="header-container">
 
+            <!-- Logo da pousada -->
+            <figure class="logo-area">
+                <img class="img1 pading" src="logo.png" alt="Logo Terra Madre">
+            </figure>
 
-        
-       <main>
-           <section class="ciano">
-           </section>
+            <!-- Menu de navegação -->
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                </ul>
+            </nav>
 
-              <section class="reserva-avaliacao">
-  <!-- Cabeçalho -->
-  <div class="top-row">
-    <h2 class="suite-nome">SUÍTE 01 | R$220,00 POR NOITE</h2>
-    <button class="btn-reserva" type="button">RESERVE JÁ!</button>
-  </div>
+        </section>
+    </header>
 
-  <!-- Galeria -->
-  <div class="galeria">
-    <div class="imagem-principal">
-      <img src="layout_Página_1_Imagem_0006.jpg" alt="Suíte 01 - imagem principal" class="galeria-img">
-    </div>
-    <div class="miniaturas">
-      <img src="Gemini_Generated_Image_9259vt9259vt9259.png" alt="Banheiro - Suíte 01" class="galeria-img">
-      <img src="Gemini_Generated_Image_nyt0lvnyt0lvnyt0.png" alt="Varanda - Suíte 01" class="galeria-img">
-      <img src="Gemini_Generated_Image_30h5mh30h5mh30h5.png" alt="Sala - Suíte 01" class="galeria-img">
-    </div>
-  </div>
+    <main>
 
-  <!-- Bloco combinado -->
-  <div class="sobre-endereco">
-    <p class="descricao">
-      Sobre este espaço: desfrute de uma estadia memorável nesta suíte que combina design moderno e funcionalidade.
-      Um refúgio tranquilo e cuidadosamente decorado, ideal para quem busca conforto e praticidade.
-    </p>
-    <hr>
-    <p class="endereco">
-      Endereço: R. Antenor Custódio da Silva, 80 - Cocaia, Ilhabela - SP, 11630-000 BRASIL
-    </p>
-  </div>
- <br>
-  <!-- Avaliação -->
-  <div class="avaliacao">
-    <h3 class="secao-titulo">AVALIE SUA EXPERIÊNCIA</h3>
-    <div class="estrelas" aria-label="Avaliação por estrelas">
-      <span data-index="1">★</span>
-      <span data-index="2">★</span>
-      <span data-index="3">★</span>
-      <span data-index="4">★</span>
-      <span data-index="5">★</span>
-    </div>
-    <button id="btn-avaliar" class="btn-enviar" type="button">ENVIAR</button>
-  </div>
+        <!-- Faixa visual decorativa -->
+        <section class="ciano"></section>
 
-  <!-- Comentários -->
-  <div class="comentarios">
-    <h3 class="secao-titulo">COMENTÁRIOS</h3>
-    <textarea id="comentario" placeholder="Escreva seu comentário aqui"></textarea>
-    <button id="btn-comentario" class="btn-enviar" type="button">ENVIAR</button>
-  </div>
-</section>
+        <!-- Seção principal da suíte -->
+        <article class="reserva-avaliacao">
 
-<!-- Modal -->
-<div id="modal" class="modal">
-  <span class="fechar">&times;</span>
-  <img class="modal-conteudo" id="modal-img">
-  <div class="modal-nav">
-    <button id="prev">⟨</button>
-    <button id="next">⟩</button>
-  </div>
-</div>
+            <!-- Título da suíte + botão de reserva -->
+            <header class="top-row">
+                <h2 class="suite-nome">SUÍTE 01 | R$220,00 POR NOITE</h2>
+                <button class="btn-reserva" type="button">RESERVE JÁ!</button>
+            </header>
 
-           
-           
-           <section class="ciano">
-           </section>
+            <!-- Galeria de imagens -->
+            <section class="galeria">
 
+                <!-- Imagem principal em destaque -->
+                <figure class="imagem-principal">
+                    <img src="layout_Página_1_Imagem_0006.jpg" 
+                         alt="Suíte 01 - imagem principal" 
+                         class="galeria-img">
+                </figure>
 
-       </main>
+                <!-- Miniaturas da galeria -->
+                <section class="miniaturas">
+                    <img src="Gemini_Generated_Image_9259vt9259vt9259.png" alt="Banheiro - Suíte 01" class="galeria-img">
+                    <img src="Gemini_Generated_Image_nyt0lvnyt0lvnyt0.png" alt="Varanda - Suíte 01" class="galeria-img">
+                    <img src="Gemini_Generated_Image_30h5mh30h5mh30h5.png" alt="Sala - Suíte 01" class="galeria-img">
+                </section>
 
+            </section>
 
-    <footer class="footer-container ">
-  <section class="footer-content">
-    <!-- Logo à esquerda -->
-    <article class="logo-area">
-      <img class="img1 pading" src="logo.png" alt="Logo Terra Madre">
-    </article>
+            <!-- Descrição + endereço -->
+            <section class="sobre-endereco">
+                <p class="descricao">
+                    Sobre este espaço: desfrute de uma estadia memorável nesta suíte que combina design moderno e funcionalidade.
+                    Um refúgio tranquilo e cuidadosamente decorado, ideal para quem busca conforto e praticidade.
+                </p>
 
-    <!-- Informações à direita -->
-    <article class="footer-links">
-      <ul>
-        <li><a href="javascript:void(0)">CENTRAL DE AJUDA</a></li>
-        <li><a href="javascript:void(0)">REDES SOCIAIS</a></li>
-      </ul>
-    </article>
-  </section>
+                <hr>
 
-  <!-- Copyright centralizado -->
-  <section class="footer-copy">
-    <p>&copy; 2025 Terra Madre Pousada Ilhabela. Todos os direitos reservados.</p>
-  </section>
-  </footer>
+                <address class="endereco">
+                    Endereço: R. Antenor Custódio da Silva, 80 - Cocaia, Ilhabela - SP, 11630-000 BRASIL
+                </address>
+            </section>
 
+            <br>
+
+            <!-- Campo de avaliação por estrelas -->
+            <section class="avaliacao">
+                <h3 class="secao-titulo">AVALIE SUA EXPERIÊNCIA</h3>
+
+                <!-- Controle de estrelas interativo -->
+                <div class="estrelas" aria-label="Avaliação por estrelas">
+                    <span data-index="1">★</span>
+                    <span data-index="2">★</span>
+                    <span data-index="3">★</span>
+                    <span data-index="4">★</span>
+                    <span data-index="5">★</span>
+                </div>
+
+                <button id="btn-avaliar" class="btn-enviar" type="button">ENVIAR</button>
+            </section>
+
+            <!-- Área para comentar -->
+            <section class="comentarios">
+                <h3 class="secao-titulo">COMENTÁRIOS</h3>
+                <textarea id="comentario" placeholder="Escreva seu comentário aqui"></textarea>
+                <button id="btn-comentario" class="btn-enviar" type="button">ENVIAR</button>
+            </section>
+
+        </article>
+
+        <!-- Modal da galeria -->
+        <dialog id="modal" class="modal">
+            <button class="fechar" aria-label="Fechar modal">&times;</button>
+            <img class="modal-conteudo" id="modal-img">
+
+            <!-- Navegação das imagens -->
+            <nav class="modal-nav">
+                <button id="prev">⟨</button>
+                <button id="next">⟩</button>
+            </nav>
+        </dialog>
+
+        <!-- Faixa decorativa -->
+        <section class="ciano"></section>
+
+    </main>
+
+    <!-- Rodapé da página -->
+    <footer class="footer-container">
+
+        <section class="footer-content">
+
+            <!-- Logo no rodapé -->
+            <figure class="logo-area">
+                <img class="img1 pading" src="logo.png" alt="Logo Terra Madre">
+            </figure>
+
+            <!-- Links úteis -->
+            <nav class="footer-links">
+                <ul>
+                    <li><a href="#">CENTRAL DE AJUDA</a></li>
+                    <li><a href="#">REDES SOCIAIS</a></li>
+                </ul>
+            </nav>
+
+        </section>
+
+        <!-- Direitos autorais -->
+        <section class="footer-copy">
+            <p>&copy; 2025 Terra Madre Pousada Ilhabela. Todos os direitos reservados.</p>
+        </section>
+
+    </footer>
 
 </body>
-
 </html>
+
